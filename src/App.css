@@ -1,38 +1,202 @@
-.App {
+.blank {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  border-bottom: 2px solid #F4F4F4;
+  background-color: #F4F4F4;
+  height: 60px;
+  width: 420px;
+  border-bottom: 1.5px solid rgb(184, 182, 182);
+  box-shadow: 0px 0px 1px 1px rgb(184, 182, 182);
+
+}
+
+.btn{
+  position: absolute;
+  background-color: #035B96;
+  color: white;
+  width: 114px;
+  height: 30px;
+  left: 43%;
+  top: 50%;
+  border-radius: 6px;
+}
+.profile {
+  position:absolute;
+  left: 42.7%;
+  right: 41.97%;
+  top: 4.7%;
+  bottom: 85%;
+
+}
+
+.profile img {
+  height: 60px;
+  width: 60px;
+}
+
+.patient {
+  margin-top: 25px;
+}
+
+.patient .col2 {
+  padding: 5px 0px;
+}
+
+.center {
   text-align: center;
+  font-size: 12px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.name {
+  font-weight: 500 medium;
+  font-size: 16px;
+  /* line-height: 19px; */
+  color: #5F5F5F;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.weight {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  text-align: center;
+  margin-top: 8px;
+  /* border: 2px solid black; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flexy {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border: 1px solid #F4F4F4;
+  padding: 6px;
+
 }
 
-.App-link {
-  color: #61dafb;
+.flexy div{
+  font-size: 16px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.flexy2 {
+  padding: 0px 15px;
+}
+
+.flexy2 div{
+  font-size: 12px;
+}
+
+.flexy2 img {
+  width: 30px;
+  height: 29.83px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+
+}
+
+.container img {
+  margin-right: 10%;
+  margin-left: 8%;
+  width: 12px;
+  height: 12px;
+}
+
+
+
+.container div {
+  font-size: 12px;
+}
+
+.container1 {
+  display: flex;
+  align-items: center;
+  margin: 30px 0px;
+
+}
+
+.container1 img {
+  margin-right: 6%;
+  margin-left: 10%;
+  width: 25px;
+  height: 25px;
+}
+
+.container1 div {
+  font-size: 12px;
+}
+.row1 {
+  position: absolute;
+  height: 140px;
+  width: 197px;
+  margin-left: 0px;
+}
+
+.row2 {
+  position: relative;
+  height: 140px;
+  width: 201px;
+  margin-left: 204px;
+  margin-right: 0px;
+  margin-top: 25px;
+}
+
+.details {
+  /* display: flex;
+  justify-content: space-between;
+  text-align: center; */
+  margin-top: 20px;
+  margin: 7px;
+
+}
+
+.diagnosis {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  /* text-align: center; */
+  font-size: 12px;
+  margin-inline-start: 10%;
+}
+
+.medicine {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  /* text-align: center; */
+  font-size: 12px;
+  margin-inline-start: 10%;
+}
+
+
+.bold {
+  font-weight: 600;
+  color: #035B96;
+  size: 14px;
+  margin-top: 7px;
+  padding-left: 10%;
+}
+
+.bold1 {
+  font-weight: 600;
+  color: #035B96;
+  size: 14px;
+  text-align: center;
+  margin-top: 2px;
+  padding-left: 1%;
+}
+
+.col1 {
+  color: #5F5F5F;
+}
+
+.col2 {
+  color: #035B96;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.border {
+  border-top: 2px solid rgb(184, 182, 182);
+  border-left: 1px solid #F4F4F4;
+  border-right: 1px solid #F4F4F4;
 }
