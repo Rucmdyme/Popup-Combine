@@ -1,5 +1,5 @@
 import React from "react";
-import "./popup.css";
+import "./appointment-profile-popup.css";
 
 function popup(props) {
   return props.trigger ? (
